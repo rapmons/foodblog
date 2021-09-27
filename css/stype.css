@@ -11,7 +11,7 @@
     transparent, 
     rgba(23, 22, 24, 0.425)
    
-  ), url('/img/issuehatdinhduong.jpg') top center / cover no-repeat;
+  ), url('../img/issuehatdinhduong.jpg') top center / cover no-repeat;
   
    background-attachment:fixed;
    height: 800px;
@@ -129,6 +129,7 @@ margin-bottom: 179px;
 }
 .itemmonan
 {
+ 
   display: flex;
   margin-bottom: 60px;
   background: #fff;
@@ -150,14 +151,25 @@ margin-bottom: 179px;
  
 
 }
-.itemmonan .create ,.chefbao p
+.chefbao p
 {
   margin-top: 20px;
-  margin-bottom: 70px;
+  margin-bottom: 40px;
+  color: #555555;
+  font-size: 13px;
+  letter-spacing: 1px;
+}
+.itemmonan .create {
+  margin-top: 20px;
+  margin-bottom: auto;
   color: #555555;
   font-size: 13px;
   letter-spacing: 1px;
   
+}
+.itemmonan hr
+{
+margin-top: 40px;
 }
 .itemmonan .img
 {
@@ -175,12 +187,17 @@ margin-bottom: 179px;
  font-size: 13px;
  color: #555555;
 }
+.mainchef
+{
+  width: 80%;
+
+}
 .chef
 {
-  width: 70%;
+padding-bottom: 25px;
   background: #fff;
   box-shadow:0 0 10px #ccc;
-  height: 100%;
+ margin-bottom: 30px;
  
 }
 .chef .imgchef
@@ -189,7 +206,7 @@ margin-bottom: 179px;
  
 }
 
-.chefbao .good1
+.chefbao .good1, .chude h2
 {
   color:#107070;
   font-size: 40px;
@@ -204,8 +221,105 @@ margin-bottom: 179px;
 }
 .chefbao
 {
-margin: 20px 20px 25px 20px;
+margin: 20px 20px 0px 20px;
 
 }
+.nauan
+{
+  width: 100%;
+  height: 300px;
+  background: url("../img/nauan.jpg") top center / cover no-repeat ;
+  box-shadow:0 0 10px #ccc;
+  display: flex;
+}
+.nauan .tieude
+{
+
+  background: #fff;
+  text-align: center;
+  width: 80%;
+  height: 30%;
+  margin: auto;
+  box-shadow:0 0 10px #ccc;
+  
+}
+.nauan .itemt
+{
+ margin-top: 15px;
+ margin-bottom: 15px;
+ color:#107070;
+ font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.nauan a{
+  color:#107070;
+  font-size: 15px;
+}
+.contact
+{
+  margin-top: 30px;
+  height: 130px;
+  background: #107070;
+  box-shadow:0 0 10px #ccc;
+  display: flex;
+}
+.contact .con
+{
+  text-align: center;
+ 
+}
+.contact p
+{margin-top: 40px;
+  color: #fff;
+  margin-bottom: 15px;
+  margin-left: 23px;
+}
+.contact a
+{
+  color: #fff;
+  text-decoration: none;
+ 
+  margin-left: 25px;
+ 
+  
+}
+.contact1
+{
+  margin-top: 30px;
+  height: 170px;
+  background:#fff;
+  box-shadow:0 0 10px #ccc;
+  display: flex;
+}
+.contact1 .con, .chude .tieude
+{
+  text-align: center;
+ 
+}
+.contact1 p, .chude p
+{margin-top: 40px;
+  color: #107070;
+  margin-bottom: 15px;
+  margin-left: 5px;
+}
+.contact1 .email
+{
+  width: 80%;
+  height: 25px;
+  margin-bottom: 10px;
+}
+.contact1 .sub
+{
+  width: 80%;
+  height: 27px;
+  background: #107070;
+  color: #fff;
+  border: none;
+}
+.contact1 .sub:hover
+{
+  background:#ccc;
+  color:#000;
+}
+
 
  
